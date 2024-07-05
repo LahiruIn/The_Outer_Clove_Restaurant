@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../Resturent\ Photo/register.jpg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff; /* White text on a background image might be more readable */
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background for better contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffffff; /* White text */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ff8c00; /* Orange color */
+  color: #ffffff; /* White text */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4caf50; /* Green color on hover */
+}
